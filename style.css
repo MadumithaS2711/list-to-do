@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    height: 100vh;
+    font-family: 'Merriweather Sans', sans-serif;
+    background: linear-gradient(
+        105deg,
+        #cd2ca8,
+        #ac1f1f
+    );
+}
+h3{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.container{
+    border: 2px solid white;
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    padding: 30px 40px;
+}
+
+#new-task{
+    position: relative;
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+#new-task input{
+    width: 70%;
+    padding: 12px;  
+    height: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+    border: 2x solid #d1d3d4;
+    font-size: 15px;
+    position: relative;
+}
+
+#new-task input:focus{
+    outline: none;
+    border-color: #951595;
+}
+
+#new-task #push{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #7d0b0b;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#tasks{
+    background: #ffffff;
+    padding: 30px 20px;
+    margin-top: 60px ;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+    position: relative;
+}
+
+#message{
+    color:red;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: medium;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.task{
+    background-color: #ffffff;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+
+.task span{
+    font-size: 15px;
+    font-weight: 400;
+    overflow: auto;
+}
+
+.task button{
+    background-color: #880f0f;
+    color: #ffffff;
+    height: 100%;    
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
